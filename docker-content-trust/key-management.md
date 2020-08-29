@@ -1,6 +1,7 @@
-### Key Management
+### Key Management 密钥管理
 
 Content trust is directly associated with an image tag and each repository has a set of keys that publishers use to sign each image.
+镜像标签，每一个仓库都由一系列的密钥发布者使用签名镜像。
 
 A repository can have both unsigned and signed images. They live as separate entities, so the same tag (e.g. `latest`) can point to different contents depending on whether Docker Content Trust is enabled or not on the client.
 
